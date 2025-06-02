@@ -9,7 +9,7 @@
     <title>HWMonitor (Install)</title>
     <authors>CPUID</authors>
     <projectUrl>https://www.cpuid.com/softwares/hwmonitor.html</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/brogers5/chocolatey-package-hwmonitor.install@0171a73def0d25156cb56592e0f492ac1690a290/hwmonitor.install.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/brogers5/chocolatey-package-hwmonitor.install@7526c0f10726ecae83727bee740fd4a405501635/hwmonitor.install.png</iconUrl>
     <copyright>Copyright © CPUID - 2025</copyright>
     <licenseUrl>https://www.cpuid.com/softwares/hwmonitor-pro/eula.html</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>

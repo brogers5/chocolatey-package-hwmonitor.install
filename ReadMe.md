@@ -1,5 +1,5 @@
 <!--markdownlint-disable-next-line MD033 MD045 -->
-# <img src="https://cdn.jsdelivr.net/gh/brogers5/chocolatey-package-hwmonitor.install@0171a73def0d25156cb56592e0f492ac1690a290/hwmonitor.install.png" width="48" height="48" alt="HWMonitor icon"/> Chocolatey Package: [HWMonitor (Install)](https://community.chocolatey.org/packages/hwmonitor.install)
+# <img src="https://cdn.jsdelivr.net/gh/brogers5/chocolatey-package-hwmonitor.install@7526c0f10726ecae83727bee740fd4a405501635/hwmonitor.install.png" width="48" height="48" alt="HWMonitor icon"/> Chocolatey Package: [HWMonitor (Install)](https://community.chocolatey.org/packages/hwmonitor.install)
 
 [![Latest package version shield](https://img.shields.io/chocolatey/v/hwmonitor.install.svg)](https://community.chocolatey.org/packages/hwmonitor.install)
 [![Total package download count shield](https://img.shields.io/chocolatey/dt/hwmonitor.install.svg)](https://community.chocolatey.org/packages/hwmonitor.install)
