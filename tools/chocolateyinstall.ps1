@@ -4,8 +4,8 @@ $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
   fileType       = 'EXE'
   softwareName   = 'CPUID HWMonitor *'
-  url            = 'https://download.cpuid.com/hwmonitor/hwmonitor_1.57.exe'
-  checksum       = '7961fbff396017ffb1b60fc964640030bd8473987f2d93cf01126e9f932d4c39'
+  url            = 'https://download.cpuid.com/hwmonitor/hwmonitor_1.58.exe'
+  checksum       = 'c8215b3bf6632f4d5766cf672725e8b4484efd7e5462b390d1802e98959be182'
   checksumType   = 'sha256'
   silentArgs     = "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /LOG=`"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).Install.log`""
   validExitCodes = @(0)
