@@ -2,14 +2,14 @@
 
 [Setup]
 AppName=CPUID HWMonitor
-AppVerName=CPUID HWMonitor 1.60
+AppVerName=CPUID HWMonitor 1.61
 AppId=CPUID HWMonitor
-AppVersion=1.60
+AppVersion=1.61
 AppPublisher=CPUID, Inc.
 DefaultDirName={pf}\CPUID\HWMonitor
 DefaultGroupName=CPUID\HWMonitor
 UninstallDisplayIcon={app}\HWMonitor.exe
-OutputBaseFilename=tmp2jajoe.tmp
+OutputBaseFilename=tmperx11k.tmp
 Compression=lzma
 ArchitecturesInstallIn64BitMode=x64
 DisableDirPage=auto
@@ -27,7 +27,7 @@ Root: HKLM; Subkey: "Software\CPUID"; Flags: uninsdeletekeyifempty
 Root: HKLM; Subkey: "Software\CPUID\HWMonitor"; Flags: uninsdeletekey 
 Root: HKLM; Subkey: "Software\CPUID\HWMonitor"; ValueName: "PATH"; ValueType: String; ValueData: "{app}"; 
 Root: HKLM; Subkey: "Software\CPUID\HWMonitor"; ValueName: "PRODUCT_NAME"; ValueType: String; ValueData: "CPUID HWMonitor"; 
-Root: HKLM; Subkey: "Software\CPUID\HWMonitor"; ValueName: "VERSION"; ValueType: String; ValueData: "1.60"; 
+Root: HKLM; Subkey: "Software\CPUID\HWMonitor"; ValueName: "VERSION"; ValueType: String; ValueData: "1.61"; 
 
 [Run]
 Filename: "{app}\hwm_readme.txt"; Flags: shellexec skipifdoesntexist postinstall skipifsilent nowait
