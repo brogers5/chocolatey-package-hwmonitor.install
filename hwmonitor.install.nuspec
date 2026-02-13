@@ -3,14 +3,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>hwmonitor.install</id>
-    <version>1.61.0</version>
-    <packageSourceUrl>https://github.com/brogers5/chocolatey-package-hwmonitor.install/tree/v1.61.0</packageSourceUrl>
+    <version>1.62.0</version>
+    <packageSourceUrl>https://github.com/brogers5/chocolatey-package-hwmonitor.install/tree/v1.62.0</packageSourceUrl>
     <owners>IonRed, sublym0nal</owners>
     <title>HWMonitor (Install)</title>
     <authors>CPUID</authors>
     <projectUrl>https://www.cpuid.com/softwares/hwmonitor.html</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/brogers5/chocolatey-package-hwmonitor.install@7526c0f10726ecae83727bee740fd4a405501635/hwmonitor.install.png</iconUrl>
-    <copyright>Copyright © CPUID - 2025</copyright>
+    <copyright>Copyright © CPUID - 2026</copyright>
     <licenseUrl>https://www.cpuid.com/softwares/hwmonitor-pro/eula.html</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <!--<projectSourceUrl>Project is closed-source</projectSourceUrl>-->
@@ -54,7 +54,7 @@ HWMonitor is a hardware monitoring program that aggregates several data points f
 
 The installer executed by this package was built using Inno Setup. For advanced setup scenarios, refer to [Inno Setup's command-line interface documentation](https://jrsoftware.org/ishelp/index.php?topic=setupcmdline). Any desired arguments can be appended to (or optionally overriding with the `--override-arguments` switch) the package's default install arguments with the `--install-arguments` option.
 
-Installer-specific details (e.g. Setup configuration and supported Languages, Components, and Tasks) can be found in the Inno Setup Script file, which has been extracted using [Inno Setup Unpacker](https://community.chocolatey.org/packages/innounp) and [reuploaded for quick reference](https://github.com/brogers5/chocolatey-package-hwmonitor.install/tree/v1.61.0/install_script.iss).
+Installer-specific details (e.g. Setup configuration and supported Languages, Components, and Tasks) can be found in the Inno Setup Script file, which has been extracted using [Inno Setup Unpacker](https://community.chocolatey.org/packages/innounp) and [reuploaded for quick reference](https://github.com/brogers5/chocolatey-package-hwmonitor.install/tree/v1.62.0/install_script.iss).
 
 For future upgrade operations, consider opting into Chocolatey's `useRememberedArgumentsForUpgrades` feature to avoid having to pass the same arguments with each upgrade:
 
