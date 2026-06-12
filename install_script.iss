@@ -2,14 +2,14 @@
 
 [Setup]
 AppName=CPUID HWMonitor
-AppVerName=CPUID HWMonitor 1.63
+AppVerName=CPUID HWMonitor 1.64
 AppId=CPUID HWMonitor
-AppVersion=1.63
+AppVersion=1.64
 AppPublisher=CPUID, Inc.
 DefaultDirName={pf}\CPUID\HWMonitor
 DefaultGroupName=CPUID\HWMonitor
 UninstallDisplayIcon={app}\HWMonitor.exe
-OutputBaseFilename=tmphreden.tmp
+OutputBaseFilename=tmpzd1vx5.tmp
 Compression=lzma
 ArchitecturesInstallIn64BitMode=x64
 DisableDirPage=auto
@@ -20,17 +20,17 @@ WizardSmallImageFile=embedded\WizardSmallImage0.bmp,embedded\WizardSmallImage1.b
 [Files]
 Source: "{app}\HWMonitor,1.exe"; DestDir: "{app}"; DestName: "HWMonitor.exe"; Check: "not Is64BitInstallMode"; 
 Source: "{app}\HWMonitor,2.exe"; DestDir: "{app}"; DestName: "HWMonitor.exe"; Check: "IsX64"; 
-Source: "{app}\hwm_readme.txt"; DestDir: "{app}"; 
+Source: "{app}\hwm_readme.pdf"; DestDir: "{app}"; 
 
 [Registry]
 Root: HKLM; Subkey: "Software\CPUID"; Flags: uninsdeletekeyifempty 
 Root: HKLM; Subkey: "Software\CPUID\HWMonitor"; Flags: uninsdeletekey 
 Root: HKLM; Subkey: "Software\CPUID\HWMonitor"; ValueName: "PATH"; ValueType: String; ValueData: "{app}"; 
 Root: HKLM; Subkey: "Software\CPUID\HWMonitor"; ValueName: "PRODUCT_NAME"; ValueType: String; ValueData: "CPUID HWMonitor"; 
-Root: HKLM; Subkey: "Software\CPUID\HWMonitor"; ValueName: "VERSION"; ValueType: String; ValueData: "1.63"; 
+Root: HKLM; Subkey: "Software\CPUID\HWMonitor"; ValueName: "VERSION"; ValueType: String; ValueData: "1.64"; 
 
 [Run]
-Filename: "{app}\hwm_readme.txt"; Flags: shellexec skipifdoesntexist postinstall skipifsilent nowait
+Filename: "{app}\hwm_readme.pdf"; Flags: shellexec skipifdoesntexist postinstall skipifsilent nowait
 
 [Icons]
 Name: "{group}\HWMonitor"; Filename: "{app}\HWMonitor.exe"; WorkingDir: "{app}"; 
