@@ -57,6 +57,14 @@ function global:au_GetLatest {
     $url = (($page.Links | Where-Object href -Match '/downloads/.*.exe$' | Select-Object -First 1 -Expand href) | ForEach-Object { $_ -replace 'http://www.cpuid.com/downloads', '' -replace '/downloads', '' } | ForEach-Object { "https://download.cpuid.com$_" })
     $version = Get-Version -Version $url
 
+    if ($version -is [version]) {
+        $build = $version.Build
+        if ($build -lt 0) {
+            #Pad the version number with a third part of 0 if provided with just two parts
+            $version = [version] "$version.0"
+        }
+    }
+
     $headRequest = Invoke-WebRequest -Uri $url -Method Head -UserAgent $userAgent
     $currentETagValue = $headRequest.Headers['ETag']
     $etagFilePath = '.\ETag.txt'
@@ -79,7 +87,7 @@ function global:au_GetLatest {
 
     return @{ 
         URL32   = $url
-        Version = "$($version).0"
+        Version = $version.ToString()
     }
 }
 
